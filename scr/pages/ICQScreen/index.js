@@ -1,12 +1,29 @@
-import React from "react";
-import { View, Text } from 'react-native';
-
-import { Container } from "./style";
+import { 
+  Container, 
+  Title, 
+  Input, 
+  TextInput,
+  Button,
+  TextButton,
+  TextResult
+} from "./style";
 
 export default function ICQScreen() {
   return (
     <Container>
-      <Text>ICQ</Text>
+      <Title>ICQ</Title>
+
+      <TextInput>Informe a cintura em cm</TextInput>
+      <Input />
+
+      <TextInput>Informe o quadril em cm</TextInput>
+      <Input />
+
+      <Button>
+        <TextButton>Calcular</TextButton>
+      </Button>
+
+      <TextResult>ICQ: </TextResult>
     </Container>
   )
 }
