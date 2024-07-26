@@ -24,3 +24,8 @@ Professor: Vinícius Maeda
 
 #### Iniciar o projeto no Android
 `npx expo start`
+
+#### Instalar o styled components
+`
+npm install styled-components --force
+`
