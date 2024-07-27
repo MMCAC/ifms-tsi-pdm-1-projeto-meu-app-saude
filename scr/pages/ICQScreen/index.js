@@ -31,10 +31,10 @@ export default function ICQScreen() {
       <Title>ICQ</Title>
 
       <TextInput>Informe a cintura em cm</TextInput>
-      <Input onChangeText={(v) => setCintura(v)} />
+      <Input onChangeText={(v) => setCintura(v)} inputMode="numeric" />
 
       <TextInput>Informe o quadril em cm</TextInput>
-      <Input onChangeText={(v) => setQuadril(v)} />
+      <Input onChangeText={(v) => setQuadril(v)} inputMode="numeric" />
 
       <Button onPress={calcularIcq}>
         <TextButton>Calcular</TextButton>
