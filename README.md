@@ -2,7 +2,7 @@
 
 Curso: Tecnologia em Sistemas para Internet
 
-Disciplina: Programação para Dispositivos Móveis I
+Disciplina: Programação para Dispositivos Móveis I (2024-1)
 
 Professor: Vinícius Maeda
 
