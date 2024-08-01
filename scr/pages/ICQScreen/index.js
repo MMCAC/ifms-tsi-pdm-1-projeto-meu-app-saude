@@ -28,7 +28,7 @@ export default function ICQScreen() {
 
   return (
     <Container>
-      <Title>ICQ</Title>
+      <Title>Calcular o ICQ</Title>
 
       <TextInput>Informe a cintura em cm</TextInput>
       <Input onChangeText={(v) => setCintura(v)} inputMode="numeric" />

@@ -28,7 +28,7 @@ export default function IMCScreen() {
 
   return (
     <Container>
-      <Title>ICQ</Title>
+      <Title>Calcular o IMC</Title>
 
       <TextInput>Informe seu peso em kg</TextInput>
       <Input onChangeText={(v) => setPeso(v)} inputMode="numeric" />

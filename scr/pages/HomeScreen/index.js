@@ -1,9 +1,10 @@
-import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
+import { View, Text, TouchableOpacity } from 'react-native';
+import { styles } from './style';
 
 export default function HomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Home</Text>
+      <Text style={styles.title}>Meu App Saúde</Text>
 
       <TouchableOpacity 
         style={styles.button}
@@ -22,31 +23,3 @@ export default function HomeScreen({ navigation }) {
     </View>
   )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    padding: 8,
-    paddingTop: 20,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-  },
-  title: {
-    fontSize: 24,
-    alignSelf: 'center',
-    marginTop: 16,
-    marginBottom: 32,
-  },
-  button: {
-    backgroundColor: '#f0f',
-    paddingVertical: 12,
-    width: 200,
-    alignItems: 'center',
-    marginBottom: 16,
-    borderRadius: 8,
-  },
-  buttonText: {
-    color: '#ccc',
-    fontSize: 20,
-  },
-});
